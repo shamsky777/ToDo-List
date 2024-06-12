@@ -11,7 +11,7 @@ function renderTodoList() {
             `
             <div class="name-todo-list">${name}</div>
             <div class="duedate-todo-list">${dueDate}</div>
-            <button onclick="deleteToDo(${i})" class="delete-todo-button">Delete</button>
+            <button onclick="deleteToDo(${i})" class="delete-todo-button"><i class="fa-solid fa-trash"></i></button>
             `;
         todoListHTML += html;
     }
